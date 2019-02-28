@@ -1,10 +1,10 @@
 import React ,{Component} from 'react';
 import Aux from '../../hoc/auxi';
 import {connect} from 'react-redux';
-import Burger from '../../components/Burger/Burger';
-import BuildControls from '../../components/Burger/BuildControls/BuildControls'
-import Model from '../../components/UI/Model/Model';
-import OrderSummary from './../../components/Burger/OrderSummary/OrderSummary';
+import Burger from '../../Components/Burger/Burger';
+import BuildControls from '../../Components/Burger/BuildControls/BuildControls';
+import Model from '../../Components/UI/Model/Model';
+import OrderSummary from './../../Components/Burger/OrderSummary/OrderSummary';
 import axios from '../../axios-orders';
 import * as actionTypes from '../../Store/actions';
 

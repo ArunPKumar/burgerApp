@@ -1,9 +1,9 @@
 import React ,{Component} from 'react';
 
-import Button from '../../../components/UI/Buttons/Button';
+import Button from '../../../Components/UI/Buttons/Button';
 import classes from './ContactData.css';
 import axios from '../../../axios-orders';
-import Input from '../../../components/UI/Input/Input';
+import Input from '../../../Components/UI/Input/Input';
 
 class ContactData extends Component{
     state = {
